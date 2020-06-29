@@ -14,16 +14,16 @@ There are two main cognitive services that are generally used with the bot servi
 Although it is advisable to use either of LUIS or QnA Maker in the chatbot design, you can use both services as well if the knowledge base is not complete or chatbot needs more information during a conversation. In this case, a Dispatcher tool is used to determine which of the two services needs to be invoked during the course of conversation.
 
 ### Prerequisite
-1) .NET Core SDK version 3.1
+1) [.NET Core SDK version 3.1](https://dotnet.microsoft.com/download)
 2) C# Programming Knowledge
-3) Azure Subscription account
-4) Visual Studio 2017/ Visual studio code
-5) LUIS Account
-6) QnaMaker Account
-7) Bot Framework V4
-8) Covid19api API
-9) Bot framework Emulator 
-10) Adaptive cards
+3) [Azure Subscription account](portal.azure.com)
+4) Visual Studio 2017/ [Visual studio code](https://code.visualstudio.com/)
+5) [LUIS Account](luis.ai.com)
+6) [QnaMaker Account](qnamaker.ai)
+7) [Bot Framework V4](https://dev.botframework.com/)
+8) [Covid19api API](https://covid19api.com/)
+9) [Bot framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases/tag/v4.8.1)
+10) [Adaptive cards](https://adaptivecards.io/)
 
 ### Limitations and Considerations
 
