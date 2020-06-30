@@ -51,6 +51,22 @@ Although it is advisable to use either of LUIS or QnA Maker in the chatbot desig
   - Select `QnABot.csproj` file
   - Press `F5` to run the project
 
+### Deploy Required Resources
+
+1. Click the below button to upload the provided ARM template to the Azure portal, which is written to automatically deploy and configure the following resources:
+    1. An Azure Bot service, default set to [Standard](https://azure.microsoft.com/en-us/pricing/details/bot-service/) tier.
+    2. An Cognitive Service (LUIS), default set to [Free](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/language-understanding-intelligent-services/) tier.
+    3. An Cognitive Service (QnAMaker), default set to [Free](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/qna-maker/) tier.
+    4. An Azure Web App Service, using the plan from # 3.
+    5. A Cognitive Services account, of type [CognitiveServices](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/), that will be used for billing your Cognitive Search skills usage.
+
+    </br>
+    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Hrashid789/Covid-19Bot/blob/master/AzureDeploy.json" target="_blank">
+        <img src="http://azuredeploy.net/deploybutton.png"/>
+    </a>
+
+
+
 ## Testing the bot using Bot Framework Emulator
 
 [Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
