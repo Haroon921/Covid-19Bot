@@ -80,8 +80,11 @@ Although it is advisable to use either of LUIS or QnA Maker in the chatbot desig
 - Enter a Bot URL of `http://localhost:3978/api/messages`
 
 ## Integrating with Microsoft Teams
+### Follow this step-by-step [guide](https://docs.microsoft.com/en-us/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0) to integrate your chatbot with Microsoft Teams
+
 ![bot](image/teams.jpg) 
-Follow this step-by-step [guide](https://docs.microsoft.com/en-us/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0) to integrate your chatbot with Microsoft Teams
+
+
 ![bot](image/symptoms.jpg) 
 ### Limitations and Considerations
 
