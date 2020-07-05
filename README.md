@@ -4,7 +4,7 @@
 It is very likely that while visiting websites, you would have come across chatbots popping up on the bottom right of the webpage and trying to engage you in a conversation. And it is much more likely that you would have actually conversated with these bots to get some information you were looking for. Since chatbots can carry out automated natural language conversations with humans, they have become very popular in the last few years with the growth of artificial intelligence.
 
 ## Solution Architecture
-![architecture](image/architecture.png)
+![architecture](image/updatedarchitecture.jpg)
 
 ### Integrating LUIS and QnA Maker (Azure Cognitive Services)
 The cool thing about Microsoft Bot Service is that its chatbots can be seamlessly integrated with Microsoft Cognitive Service to enrich the bot’s ability to converse with humans in a more natural way.
