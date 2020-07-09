@@ -6,12 +6,22 @@ It is very likely that while visiting websites, you would have come across chatb
 ## Solution Architecture
 ![architecture](image/1updatedarchitecture.jpg)
 
-### Integrating LUIS and QnA Maker (Azure Cognitive Services)
+### Integrating LUIS, QnA Maker and Text Translator (Azure Cognitive Services)
 The cool thing about Microsoft Bot Service is that its chatbots can be seamlessly integrated with Microsoft Cognitive Service to enrich the bot’s ability to converse with humans in a more natural way.
 
 There are two main cognitive services that are generally used with the bot service - Language Understanding Intelligent Service (LUIS) and QnA Maker. The purpose of LUIS is to help chatbot understand the intent of the user using which it can fetch the appropriate task flow or API to derive the response. QnA maker is useful when the question asked is simple and the answer can be fetched from a knowledge base that is usually static.
 
 Although it is advisable to use either of LUIS or QnA Maker in the chatbot design, you can use both services as well if the knowledge base is not complete or chatbot needs more information during a conversation. In this case, a Dispatcher tool is used to determine which of the two services needs to be invoked during the course of conversation.
+
+### Multi-Lingual Support
+
+A cool aspect of our chatbot is that it supports both English and Arabic for the conversation so that users from different demographics can interact with it. To choose the Arabic language, you can type ‘ar,’ and for switching back to English, users have to type ‘en.’ Again, this capability can extend to any number of languages as per your needs.
+
+![architecture](image/multilanguage.jpg)
+
+### Covid-19 Status
+Users interested in checking the current status of Covid-19 cases, deaths, and recoveries for specific countries can ask the chatbot for the same. It provides the current state of different countries such as KSA, UAE, and Global.
+
 
 ### Prerequisite
 1) [.NET Core SDK version 3.1](https://dotnet.microsoft.com/download)
