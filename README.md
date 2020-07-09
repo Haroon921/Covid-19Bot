@@ -71,7 +71,7 @@ Users interested in checking the current status of Covid-19 cases, deaths, and r
 
     </br>
     <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHrashid789%2FCovid-19Bot%2Fmaster%2FAzureDeploy.json" target="_blank">
-        <img src="http://azuredeploy.net/deploybutton.png"/>
+        <img src="https://aka.ms/deploytoazurebutton"/>
     </a>
 
 
