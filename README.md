@@ -61,7 +61,7 @@ Although it is advisable to use either of LUIS or QnA Maker in the chatbot desig
     5. A Cognitive Services account, of type [CognitiveServices](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/), that will be used for billing your Cognitive Search skills usage.
 
     </br>
-    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Hrashid789/Covid-19Bot/blob/master/AzureDeploy.json" target="_blank">
+    <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FHrashid789%2FCovid-19Bot%2Fmaster%2FAzureDeploy.json" target="_blank">
         <img src="http://azuredeploy.net/deploybutton.png"/>
     </a>
 
