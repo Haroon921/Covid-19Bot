@@ -1,4 +1,6 @@
 ![bot](image/covid-bot.jpg) 
+
+# [Click here to try it out](https://qnacovdi19app-bot.azurewebsites.net/bot.html)
 # Covid-19 Chatbot using Microsoft Azure Bot Framework and Cognitive Services (Luis, QnAmaker, and Text Translator)
 It is very likely that while visiting websites, you would have come across chatbots popping up on the bottom right of the webpage and trying to engage you in a conversation. And it is much more likely that you would have actually conversated with these bots to get some information you were looking for. Since chatbots can carry out automated natural language conversations with humans, they have become very popular in the last few years with the growth of artificial intelligence.
 
